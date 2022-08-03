@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0093E9;
+    background-image: linear-gradient(to top, 160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.container {
+    width: 37%;
+    background-color: white;
+    height: 300px;
+    margin: 200px auto;
+    border-radius: 7px;
+}
+
+.container h1 {
+    font-size: 23px;
+    padding: 20px 20px;
+    color: #0093E9;
+}
+
+.location {
+    width: 100%;
+    padding: 30px;
+}
+
+#cityName {
+    padding: 7px;
+    width: 100%;
+    font-weight: 300;
+    text-align: center;
+    font-size: larger;
+}
+
+.dif {
+    margin: 30px auto;
+    color: gray;
+    text-align: center;
+}
+
+.btn-location {
+    width: 100%;
+    padding: 8px 0px;
+    font-size: 16px;
+    background-color: #1094e1;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-location:hover {
+    background-color: #357ba3;
+}
+
+.search-btn
+{
+    padding: 8px;
+}
+
+
+
+@media (max-width:1367px) {
+
+    .container {
+        width: 57%;
+        height: 300px;
+        margin: 70px auto;
+    }
+
+}
+
+@media (max-width:621px) {
+
+    .container {
+        width: 73%;
+        height: 310px;
+
+    }
+
+}
+
+@media (max-width:478px) {
+
+    .container {
+        width: 90%;
+        height: 320px;
+
+    }
+
+    #humidity {
+
+        font-size: 14px;
+        padding: 12px 0px;
+    }
+
+    #feel {
+        padding: 25px 0px;
+        font-size: 14px;
+    }
+
+    #Current_location {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}

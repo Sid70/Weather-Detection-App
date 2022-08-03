@@ -1,0 +1,59 @@
+.display
+{
+    width: 100%;
+    text-align: center;
+}
+.temp
+{
+    width: 100%;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#summary
+{
+    text-align: center;
+    margin-top: 10px;
+}
+#Current_location
+{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 11px;
+}
+
+#humidity
+{
+    text-align: center;
+    width: 50%;
+    font-size: 14px;
+    padding: 8px 0px;
+}
+
+#feel
+{
+    text-align: center;
+    width: 50%;
+    border-right: 2px solid grey;
+    padding: 8px 0px;
+    font-size: 14px;
+}
+
+#icon
+{
+    text-align: center;
+    width: 100%;
+}
+
+#icons
+{
+    width: 60px;
+}
+.con
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
